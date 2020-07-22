@@ -98,34 +98,6 @@
     font-size: 1.5rem;
 }
 
-.loader{
-    position: fixed;                                                                    
-    top: 0;
-    left: 0;
-    background: white;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000000000;
-}
-
-.disappear{
-    animation: vanish 1s forwards;
-    
-}
-
-@keyframes vanish{
-    100%{
-        opacity: 0;
-        visibility: hidden;
-    }
-}
-
-
-
-
 #bubbles { height: 100%;
 position: absolute;
     z-index: 9999999;
