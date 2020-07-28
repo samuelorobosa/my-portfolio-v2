@@ -69,7 +69,7 @@
     color:  #64ffda;
 }
 .rotate{
-    animation: rotate 2s linear infinite;
+    animation: rotate 2s linear;
 }
 @keyframes rotate{
     from{
