@@ -1119,7 +1119,7 @@ STYLE SWITCHER FOR DEMO
 /*
  * 3. TYPE
  */
-/* body {
+ body {
   font-family: CothamSans;
   font-size: 1rem;
   font-weight: 400;
@@ -1212,6 +1212,7 @@ h6,
   line-height: 1.2;
 }
 
+/*
 .display-4 {
   font-size: 3.5rem;
   font-weight: 300;
