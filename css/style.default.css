@@ -1222,7 +1222,7 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-small,
+/* small,
 .small {
   font-size: 80%;
   font-weight: 400;
@@ -1748,9 +1748,9 @@ select.form-control-lg:not([size]):not([multiple]) {
 .was-validated .custom-control-input:valid ~ .valid-tooltip, .custom-control-input.is-valid ~ .valid-feedback,
 .custom-control-input.is-valid ~ .valid-tooltip {
   display: block;
-}
+} */
 
-/* .was-validated .custom-control-input:valid:checked ~ .custom-control-label::before, .custom-control-input.is-valid:checked ~ .custom-control-label::before {
+.was-validated .custom-control-input:valid:checked ~ .custom-control-label::before, .custom-control-input.is-valid:checked ~ .custom-control-label::before {
   background-color: #34ce57;
 }
 
@@ -2042,4 +2042,4 @@ code {
     margin-right: 15px;
     margin-left: 15px;
   }
-} */
+}
