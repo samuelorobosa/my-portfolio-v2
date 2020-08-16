@@ -122,7 +122,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover, nav.navbar a.nav-link
   color: #64ffda;
 }
 
-nav.navbar a.nav-link.active {
+nav.navbar a.nav-link:hover {
   border-bottom: 1px solid #64ffda;
 }
 
@@ -1156,7 +1156,7 @@ h6,
   /* line-height: 1.44; */
   color: inherit;
   text-transform: uppercase;
-  /* letter-spacing: 0.1em; */
+  /* letter-spacing: 0.1m; */
 } 
 
 h1,
