@@ -232,3 +232,25 @@ position: absolute;
 .portolio_link{
     margin: 5px;
 }
+
+.reveal{
+    border: 1px solid   #64ffda;
+    background-color: inherit;
+    color:  #64ffda;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.reveal:focus{
+    outline: none;
+}
+
+
+
+.others{
+    display: none;
+}
+
+.show{
+display: block;
+}

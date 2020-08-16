@@ -33,3 +33,17 @@ $window.trigger('scroll');
 
 
 
+let x = document.querySelector(".others")
+let revealButton =document.querySelector(".reveal");
+let originalText="Show More"
+let modified = "Show Less"
+
+revealButton.addEventListener("click", ()=>{
+  x.classList.toggle("show");
+  if (revealButton.innerText===originalText){
+    revealButton.innerHTML=modified
+  }
+  else if(revealButton.innerText===modified){
+    revealButton.innerHTML=originalText
+  }
+})
