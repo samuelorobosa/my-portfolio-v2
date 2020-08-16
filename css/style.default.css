@@ -1119,7 +1119,7 @@ STYLE SWITCHER FOR DEMO
 /*
  * 3. TYPE
  */
- /* body {
+  body {
   font-family: CothamSans;
   font-size: 1rem;
   font-weight: 400;
@@ -1127,7 +1127,7 @@ STYLE SWITCHER FOR DEMO
   color: #212529;
   background-color: #fff;
 }
-*/
+
 a {
   color: #333;
   text-decoration: none;
@@ -1137,7 +1137,7 @@ a:hover, a:focus {
   color: #0d0d0d;
   text-decoration: underline;
 }
-
+/* 
 h1,
 h2,
 h3,
@@ -1157,7 +1157,7 @@ h6,
   color: inherit;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-}
+} */
 
 h1,
 .h1 {
