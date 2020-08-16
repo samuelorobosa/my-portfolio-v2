@@ -1137,7 +1137,7 @@ a:hover, a:focus {
   color: #0d0d0d;
   text-decoration: underline;
 }
-/* 
+
 h1,
 h2,
 h3,
@@ -1153,11 +1153,11 @@ h6,
   margin-bottom: 0.5rem;
   font-family: CothamSans;
   font-weight: 700;
-  line-height: 1.44;
+  /* line-height: 1.44; */
   color: inherit;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
-} */
+  /* letter-spacing: 0.2em; */
+} 
 
 h1,
 .h1 {
