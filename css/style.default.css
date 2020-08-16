@@ -1750,7 +1750,7 @@ select.form-control-lg:not([size]):not([multiple]) {
   display: block;
 }
 
-.was-validated .custom-control-input:valid:checked ~ .custom-control-label::before, .custom-control-input.is-valid:checked ~ .custom-control-label::before {
+/* .was-validated .custom-control-input:valid:checked ~ .custom-control-label::before, .custom-control-input.is-valid:checked ~ .custom-control-label::before {
   background-color: #34ce57;
 }
 
@@ -2042,4 +2042,4 @@ code {
     margin-right: 15px;
     margin-left: 15px;
   }
-}
+} */
