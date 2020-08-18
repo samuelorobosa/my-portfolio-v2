@@ -39,7 +39,7 @@ let originalText="Show More"
 let modified = "Show Less"
 
 revealButton.addEventListener("click", ()=>{
-  x.classList.toggle("show");
+  x.classList.toggle("others");
   if (revealButton.innerText===originalText){
     revealButton.innerHTML=modified
   }
