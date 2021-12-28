@@ -3,7 +3,7 @@
 
 * {
     scrollbar-width: thin;
-    scrollbar-color: #64ffda; orange;
+    scrollbar-color: #64ffda;
   }
   
   /* Works on Chrome/Edge/Safari */
@@ -46,6 +46,10 @@
 }
 
 .about-link:hover{
+    color: #64ffda;
+}
+
+.about-link:visited{
     color: #64ffda;
 }
 
@@ -266,4 +270,16 @@ position: absolute;
 
 .others{
     display: none;
+}
+
+.column{
+    flex-basis: 0;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+span.slate{
+    color: #64ffda;
 }
